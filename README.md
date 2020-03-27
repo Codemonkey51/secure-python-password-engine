@@ -17,7 +17,7 @@
   * goes through password setup
 * passwordEncrypt(password)
   * returns hashed version of {password}
-### Constimizations:
+### Customizations:
 * Change hash type:
   * goto your module foler open password.py and find this code:
   ```python 
