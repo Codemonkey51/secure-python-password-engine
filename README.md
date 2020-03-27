@@ -29,3 +29,4 @@
     * sha1(), sha224(), sha256(), sha384(), sha512(), blake2b(), and blake2s()
   * supported by most platforms but not all:
     * sha3_224(), sha3_256(), sha3_384(), sha3_512(), shake_128(), shake_256()
+  * if you can we recomend switching to sha3_256()
