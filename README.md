@@ -1,4 +1,10 @@
 # secure python password engine docs:
+### About:
+* password.py is made for python 3.6
+* password.py was made origianlly on [repl.it](https://repl.it) by [@codemonkey51](https://repl.it/@codemonkey51/Password-engine), it was made to help secure projects with login info
+* password.py **should not be used for actual real world passwords or for any other real world aplications**
+* password.py is not an officail package and can only be downloaded here
+* you are not alowed to redistribute password.py without credit
 
 ### Functions:
 * securePasswordInput(passwordPrompt)
@@ -9,3 +15,15 @@
   * goes through password setup
 * passwordEncrypt(password)
   * returns hashed version of {password}
+### Constimizations:
+* Change hash type:
+  * goto your module foler open password.py and find this code:
+  ```python 
+    def passwordEncrypt(password):
+       return(hashlib.sha256(password.encode()).hexdigest())
+  ```
+  * then replace sha256 with a hash from the list below
+  * the supported hash types are: 
+    * sha1(), sha224(), sha256(), sha384(), sha512(), blake2b(), and blake2s()
+  * supported by most platforms but not all:
+    * sha3_224(), sha3_256(), sha3_384(), sha3_512(), shake_128(), shake_256()
