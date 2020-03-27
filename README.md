@@ -2,11 +2,13 @@
 ### About:
 * password.py is made for python 3.6
 * password.py was made origianlly on [repl.it](https://repl.it) by [@codemonkey51](https://repl.it/@codemonkey51/Password-engine), it was made to help secure projects with login info
-* password.py **should not be used for actual real world passwords or for any other real world aplications**
 * password.py is not an official package and can only be downloaded here
 * you are not alowed to redistribute password.py without credit
 * support discord server [here](https://discord.gg/NQ7fC63)
 * example project [here](https://repl.it/@codemonkey51/Password-engine-example)
+
+### Disclaimer:
+**We are not liable for any security breaches if you choose to use this module**
 
 ### Functions:
 * securePasswordInput(passwordPrompt)
@@ -30,3 +32,4 @@
   * supported by most platforms but not all:
     * sha3_224(), sha3_256(), sha3_384(), sha3_512(), shake_128(), shake_256()
   * if you can we recomend switching to sha3_256()
+
