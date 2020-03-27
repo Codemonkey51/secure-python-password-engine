@@ -9,3 +9,7 @@
   * goes through password setup
 * passwordEncrypt(password)
   * returns hashed version of {password}
+### Constimizations:
+* Change hash type:
+  * the supported hash types are: 
+    * sha1(), sha224(), sha256(), sha384(), sha512(), blake2b(), and blake2s()
