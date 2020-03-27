@@ -5,6 +5,7 @@
 * password.py **should not be used for actual real world passwords or for any other real world aplications**
 * password.py is not an officail package and can only be downloaded here
 * you are not alowed to redistribute password.py without credit
+* support discord server [here](https://discord.gg/NQ7fC63)
 
 ### Functions:
 * securePasswordInput(passwordPrompt)
